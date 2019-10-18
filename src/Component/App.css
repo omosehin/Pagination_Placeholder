@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+}
+.App {
+  text-align: center;
+}
+
+.cardTitleStyle {
+  color: green;
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+.cardBodyStyle {
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+
+.blogCard:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 20px;
+  transition: all 1s;
+}
+
+.current-page {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.country-card-container {
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.country-name {
+  font-size: 0.9rem;
+}
+
+.country-region {
+  font-size: 0.7rem;
+}
+
+.country-page,
+.country-name,
+.country-region {
+  line-height: 1;
+}
+
+ul.pagination {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+ul.pagination li.page-item.active a.page-link {
+  color: #445565 !important;
+  background-color: #e3e7eb !important;
+  border-color: #ced4da !important;
+}
+ul.pagination a.page-link {
+  padding: 0.75rem 1rem;
+  min-width: 3.5rem;
+  text-align: center;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+  color: #6b88a4;
+  font-weight: 900;
+  font-size: 1rem;
+}
+ul.pagination a.page-link:hover {
+  background-color: #f4f4f4;
+}
+
+.spiningImg {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
